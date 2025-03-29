@@ -7,6 +7,6 @@ on:
 run-name: ${{ github.sha }} | ${{ github.event.head_commit.message }}
 jobs:
   call-workflow:
-    uses: raghudevopsb81/github-reusable-actions/.github/workflows/ci-dev-branch.yaml@main
+    uses: g-sathish09/github-reusable-actions/.github/workflows/ci-dev-branch.yaml@main
 #
 #
